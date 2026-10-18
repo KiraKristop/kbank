@@ -1,0 +1,25 @@
+name: tinkoff_sdk
+description: Flutter TinkoffSDK plugin
+version: 0.7.0
+homepage: "https://github.com/Progressive-Mobile/tinkoff_sdk"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: tech.pmobi.tinkoff_sdk
+        pluginClass: TinkoffSdkPlugin
+      ios:
+        pluginClass: TinkoffSdkPlugin
